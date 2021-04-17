@@ -1,10 +1,11 @@
 {
   "name": "react-network-topology",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && webpack && cp ./lib/rnt.css ./dist/lib/"
   },
   "keywords": [
     "network",

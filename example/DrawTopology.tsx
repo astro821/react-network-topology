@@ -1,5 +1,5 @@
 import * as React from 'react'
-import ReactNetworkTopology, {HostNode, NodeType} from "../lib/ReactNetworkTopology";
+import ReactNetworkTopology, {HostNode, NodeType} from "../lib";
 
 const testData = {
     "nodes": [

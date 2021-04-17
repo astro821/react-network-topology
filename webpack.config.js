@@ -2,7 +2,7 @@ const path = require('path')
 
 module.exports = {
     entry: {
-        "index": path.resolve(__dirname, 'lib/ReactNetworkTopology.tsx'),
+        "index": path.resolve(__dirname, 'lib/index.tsx'),
     },
     output: {
         filename: '[name].js',
@@ -14,7 +14,7 @@ module.exports = {
         rules: [
             {
                 test: /\.tsx$/,
-                use: ['ts-loader']
+                use: ['ts-loader'],
             },
             {
                 test: /\.css$/,
